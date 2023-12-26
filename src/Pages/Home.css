@@ -1,0 +1,423 @@
+.container {
+    display: flex;
+    width: 100%;
+    /* margin: auto; */
+    background: aqua;
+    flex-wrap: wrap;
+    /* padding: auto; */
+
+
+}
+
+@media (min-width: 768px) {
+
+    .container,
+    .container-md,
+    .container-sm {
+        /* max-width: 720px; */
+        max-width: 100%;
+    }
+
+}
+
+@media (min-width: 576px) {
+
+    .container,
+    .container-sm {
+        /* max-width: 540px; */
+        max-width: 100%;
+    }
+}
+
+.navbar {
+    width: 100%;
+}
+
+.nav-item {
+    margin: auto;
+}
+
+.flex-item {
+    flex: 1;
+    padding: 10px;
+    /* border: 2px solid aqua; */
+    text-align: center;
+    cursor: pointer;
+}
+
+.flex-item:nth-child(1) {
+    flex-basis: 15%;
+}
+
+.flex-item:nth-child(2) {
+    flex-basis: 40%;
+}
+
+.flex-item:nth-child(3) {
+    flex-basis: 15%;
+}
+
+.flex-item:nth-child(4) {
+    flex-basis: 15%;
+}
+
+input {
+    font-size: 20px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+
+}
+
+.search {
+    display: flex;
+    width: 100%;
+    /* background: #febd69; */
+    /* border: 3px solid red; */
+
+}
+
+.search-item {
+    /* border: 2px solid red; */
+    padding-right: 10px;
+}
+
+.search-item:nth-child(1) {
+    flex-basis: 80%;
+
+}
+
+.search-item:nth-child(2) {
+    flex-basis: 15%;
+}
+
+.card {
+    cursor: pointer;
+    background: #febd69;
+}
+
+#card {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.lorem {
+    border: 2px solid red;
+}
+
+.todo-main-container {
+    margin-top: 10px;
+    min-width: 30px;
+    max-height: 500px;
+    border: 1px solid red;
+    overflow-y: scroll;
+}
+
+.todo-card {
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    border: 2px solid gainsboro;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.todo-content-container {
+    /* border: 1px solid blue; */
+    width: 100%;
+}
+
+.sign-in a {
+    color: white;
+    /* background: red; */
+    text-decoration: none;
+}
+
+.Logo a {
+    color: white;
+
+    text-decoration: none;
+}
+
+.signUp {
+    margin-top: 40px;
+    font-size: 25px;
+    /* background: red; */
+    border: 1px solid rgba(0, 0, 0, 0.324);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.signUp a {
+    /* color: white; */
+    text-decoration: none;
+}
+
+.buy {
+
+
+    /* background: red; */
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buy-btn {
+    background: hsla(35, 98%, 49%, 0.66);
+    font-size: 20px;
+    border-radius: 15px;
+    width: 90%;
+
+    margin-left: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.addCard-btn {
+    background: hsla(60, 100%, 50%, 0.66);
+    font-size: 25px;
+    border-radius: 25px;
+    width: 90%;
+
+    margin-left: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+/* login css */
+.login-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    min-height: 100vh;
+
+}
+
+.login-input {
+    display: block;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: 1px solid gainsboro;
+    margin: 10px;
+    text-align: center;
+}
+
+.login-btn {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgb(13, 13, 241);
+    color: white;
+    transition: 0.3 all ease-in-out;
+    cursor: pointer;
+
+}
+
+.login-btn:active {
+    transform: scale(0.95);
+}
+
+.logih-link {
+    text-decoration: none;
+}
+
+.login-card-container1 {
+    padding-top: 10px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: aqua;
+    /* min-height: 100vh; */
+    font-size: 30px;
+    border-radius: 2px solid red;
+}
+
+.login-input1 {
+    /* display: block; */
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: 1px solid gainsboro;
+    margin: 10px;
+    text-align: center;
+    background: 2px solid red;
+}
+
+input[type=textarea] {
+    width: 80%;
+    margin: auto;
+    margin: 10px;
+}
+
+input {
+    width: auto;
+}
+
+.para {
+    text-align: center;
+}
+
+.Location {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    /* background: white; */
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 20px;
+    outline: none;
+}
+
+.gps {
+    /* text-align: center; */
+    margin: auto;
+    /* border: 2px solid red; */
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: aqua;
+    outline: none;
+    width: 100%;
+}
+
+.Gps-Location {
+    outline: none;
+    outline-color: aqua;
+    /* background: red; */
+}
+
+/* Shopping CSS */
+
+.container {
+    width: 100%;
+    /* background-color: black; */
+}
+
+.product {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background: aqua;
+}
+
+.product-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    width: 100%;
+
+    /* background-color: aqua; */
+    color: black;
+}
+
+.product-cart {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto;
+    color: black;
+    max-height: 480px;
+    margin-bottom: 5px;
+
+
+}
+
+.image {
+
+    width: 100%;
+    max-width: 150px;
+    max-height: 200px;
+
+}
+
+.image>img {
+    background-color: rgb(220, 245, 224);
+}
+
+.product-name {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.cat-price-wrapper {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.product-category {
+    font-size: 15px;
+    background-color: antiquewhite;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+.product-price {
+    font-size: 24px;
+}
+
+.search-input {
+    padding: 20px;
+    width: 80%;
+    margin-left: 9%;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.buy-btn {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.addCard-btn {
+    cursor: pointer;
+}
+
+.form-control {
+    margin-left: 10px;
+}
+
+.nav-item {
+    color: black;
+    margin: 10px
+}
+
+
+
+
+/* Card CSS */
+
+.product-wrapper1 {
+    display: block;
+    max-width: 400px;
+    max-height: 600px;
+    background: white;
+}
+
+.product-cart1 img {
+    max-height: 300px;
+}
