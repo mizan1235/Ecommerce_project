@@ -9,7 +9,7 @@ const Home = () => {
   
   return (
     <div>
-      <Router>
+       <Router basename="/Ecommerce_project">
         <Routes>
            
           <Route path="/" element={<Product/>}/>
